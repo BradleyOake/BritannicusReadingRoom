@@ -1,0 +1,680 @@
+body
+{
+    background: url("../images/background.jpg");
+}
+.form-h3
+{
+    margin-bottom: 0px;
+}
+h3
+{
+    margin-top: -5px;
+    margin-bottom: 2px;
+}
+#backLink
+{
+    color: #BAA378;
+    text-shadow: 1px 1px 3px #000000, 1px 2px 2px #060606, 1px 3px 1px #000000;
+    text-decoration: underline;
+}
+.browse a
+{  
+    color: #BAA378;
+    text-shadow: 1px 1px 3px #000000, 1px 2px 2px #060606, 1px 3px 1px #000000;
+    text-decoration: underline;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+.browse a:hover
+{
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+.browse a:active
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.browse
+{
+    font-size: 0.8em;
+    text-align: left;
+    color: #BAA378;
+    background-color: #826837;
+    border: 1px solid #BAA378;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 4px 2px #0F0F0F;
+    position: relative;
+    margin: auto;
+    margin-top: 1%;
+    width: 97%;
+}
+.browse tr:nth-child(odd)
+{
+    background-color: #453823;
+}
+.browse th
+{
+    width: 15%;
+    border: 1px solid #BAA378;
+    text-align: center;
+    padding: 3px;
+}
+.browse td
+{
+    width: 15%;
+    border: 1px solid #BAA378;
+    text-align: center;
+    padding: 4px;
+}
+
+td
+{
+    width: 200px;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-align: right;
+}
+.displayTable
+{
+    font-size: 0.8em;
+    text-align: left;
+    color: #BAA378;
+    background-color: #826837;
+    border: 1px solid #BAA378;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 4px 2px #0F0F0F;
+    position: relative;
+    margin: auto;
+    margin-top: 2%;
+    width: 80%;
+}
+.add-button-cell
+{
+    text-align: center;
+}
+.button-form
+{
+    text-align: center;
+    margin: auto;
+}
+.conditionForm
+{
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+#collectibleBookForm
+{
+    /* this form is initially invisible on the addItem page */
+    display: none;
+}
+#mapForm
+{
+    /* this form is initially invisible on the addItem page */
+    display: none;
+}
+#searchNewBooks	
+{
+	display: none;
+} 
+#searchCollectibleBooks
+{
+	/*display: none;*/
+} 
+#searchMaps
+{
+	display: none;
+} 
+#searchWishList
+{
+	display: none;
+} 
+.add-form td:nth-child(3)
+{
+    color: white;
+}
+.add-form
+{
+    margin: auto;
+    text-align: center;
+}
+
+select
+{
+    font-weight: bold;
+    width: 240px;
+    height: 25px;
+    border: 1px solid black;
+    box-shadow: 0 0 3px #E0E0E0;
+    margin-left: 0%;
+    margin-right: 7%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.add-input
+{
+    font-weight: bold;
+    width: 240px;
+    height: 25px;
+    border: 1px solid black;
+    box-shadow: 0 0 3px #E0E0E0;
+    margin-left: 0%;
+    margin-right: 7%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.add-input-year
+{
+    font-weight: bold;
+    width: 50px;
+    height: 25px;
+    border: 1px solid black;
+    box-shadow: 0 0 3px #E0E0E0;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.add-input-month-day
+{
+    font-weight: bold;
+    width: 40px;
+    height: 25px;
+    border: 1px solid black;
+    box-shadow: 0 0 3px #E0E0E0;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.add-input:hover, .add-input-year:hover, .add-input-month-day:hover
+{
+    box-shadow: 0 0 3px #000000;
+}
+.add-input:focus, .add-input-year:focus, .add-input-month-day:focus
+{
+    box-shadow: 0 0 7px #000000;
+}
+.add-textarea:hover
+{
+    box-shadow: 0 0 3px #000000;
+}
+.add-textarea:focus
+{
+    box-shadow: 0 0 7px #000000;
+}
+.add-textarea
+{
+    resize: vertical;
+    min-height: 25px;
+    min-width: 240px;
+    width: 240px;
+    height: 75px;
+    max-height: 130px;
+    border: 1px solid black;
+    box-shadow: 0 0 3px #E0E0E0;
+    margin-left: 0%;
+    margin-right: 7%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.add-button
+{
+    width: 100px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #E0E0E0;
+}
+input:hover[type="radio"]
+{
+    background-color: #FFFFFF;
+    box-shadow: 0 0 7px #000000;
+}
+input:hover[type="submit"]
+{
+    box-shadow: 0 0 7px #000000;
+}
+input:focus[type="submit"]
+{
+    box-shadow: inset 0 0 4px #000000;
+}
+.content
+{
+    width: 69.5%;
+    height: 80%;
+    /*top: 58%;*/
+    top: 58%;
+    left: 40.2%;
+    position: absolute;
+    padding: 0px;
+    margin-left: -25%;
+    margin-top: -22.5%;
+    border: 1px solid black;   
+    background: linear-gradient(#453823, #BAA378);
+    overflow: auto;
+
+}
+/* .contentBack
+{
+    top: -29px;
+    position: float;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(#453823, #BAA378);
+    opacity: 0.85;
+    z-index: -1;
+}  */
+.content span
+{
+    color: #BAA378;
+    font-size: 25px;
+    font-weight: bold;
+    /*text-shadow: 1px 1px 4px #000000; */
+    text-shadow: 1px 1px 4px #000000, 1px 2px 3px #060606, 1px 3px 2px #000000;
+}
+.footer
+{
+    
+    width: 69.5%;
+    height: 44px;
+    top: 139%;
+    left: 40.2%;
+    position: absolute;
+    margin-left: -25%;
+    margin-top: -22.5%;
+    border: 1px solid black;
+    /* border-left: 1px solid black;   
+    border-right: 1px solid black;
+    border-bottom: 1px solid black; */
+    background: linear-gradient(#BAA378, #453823);
+}
+.footer span
+{
+    color: #BAA378;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 1px -1px 4px #000000;
+}
+#cssmenu {
+  text-align: center;
+  position: relative;
+  height: 44px;
+  background: linear-gradient(#453823, #BAA378);
+  width: 70%;
+  
+  border: 1px solid black;
+  margin: auto;
+}
+#cssmenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  
+}
+#cssmenu > ul {
+  position: relative;
+  display: block;
+  /*background: #453823;*/
+  background: linear-gradient(#453823, #BAA378);
+  width: 100%;
+  z-index: 500;
+  
+}
+#cssmenu:after,
+#cssmenu > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#cssmenu.align-right > ul > li {
+  float: right;
+}
+#cssmenu.align-center ul {
+  text-align: center;
+}
+#cssmenu.align-center ul ul {
+  text-align: left;
+}
+#cssmenu > ul > li {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#cssmenu > ul > #menu-button {
+  display: none;
+}
+#cssmenu ul li a {
+  display: block;
+  font-family: Helvetica, sans-serif;
+  
+  text-decoration: none;
+}
+#cssmenu > ul > li > a {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 15px 20px;
+  color: #BAA378;
+  text-shadow: 1px 1px 2px #000000;
+  text-transform: uppercase;
+  -webkit-transition: color 0.25s ease-out;
+  -moz-transition: color 0.25s ease-out;
+  -ms-transition: color 0.25s ease-out;
+  -o-transition: color 0.25s ease-out;
+  transition: color 0.25s ease-out;
+}
+#cssmenu > ul > li.has-sub > a {
+  padding-right: 32px;
+}
+#cssmenu > ul > li:hover > a {
+  color: #ffffff;
+  background: linear-gradient(#BAA378, #453823);
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+#cssmenu li.has-sub::after {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+#cssmenu > ul > li.has-sub::after {
+  right: 10px;
+  top: 20px;
+  border: 5px solid transparent;
+  border-top-color: #BAA378;
+}
+#cssmenu > ul > li:hover::after {
+  border-top-color: #ffffff;
+}
+#indicatorContainer {
+  position: absolute;
+  height: 12px;
+  width: 100%;
+  bottom: 0px;
+  overflow: hidden;
+  z-index: -1;
+}
+#pIndicator {
+  position: absolute;
+  height: 0;
+  width: 100%;
+  border: 12px solid transparent;
+  border-top-color: #BAA378;
+  z-index: -2;
+  -webkit-transition: left .25s ease;
+  -moz-transition: left .25s ease;
+  -ms-transition: left .25s ease;
+  -o-transition: left .25s ease;
+  transition: left .25s ease;
+}
+#cIndicator {
+  position: absolute;
+  height: 0;
+  width: 100%;
+  border: 12px solid transparent;
+  border-top-color: #BAA378;
+  top: -12px;
+  right: 100%;
+  z-index: -2;
+}
+#cssmenu ul ul {
+  border: 1px solid white;
+  position: absolute;
+  left: -9999px;
+  top: 70px;
+  opacity: 0;
+  -webkit-transition: opacity .3s ease, top .25s ease;
+  -moz-transition: opacity .3s ease, top .25s ease;
+  -ms-transition: opacity .3s ease, top .25s ease;
+  -o-transition: opacity .3s ease, top .25s ease;
+  transition: opacity .3s ease, top .25s ease;
+  z-index: 1000;
+}
+#cssmenu ul ul ul {
+  top: 37px;
+  padding-left: 5px;
+}
+#cssmenu ul ul li {
+  position: relative;
+}
+#cssmenu > ul > li:hover > ul {
+  left: auto;
+  top: 44px;
+  opacity: 1;
+}
+#cssmenu.align-right > ul > li:hover > ul {
+  left: auto;
+  right: 0;
+  opacity: 1;
+}
+#cssmenu ul ul li:hover > ul {
+  left: 170px;
+  top: 0;
+  opacity: 1;
+}
+#cssmenu.align-right ul ul li:hover > ul {
+  left: auto;
+  right: 170px;
+  top: 0;
+  opacity: 1;
+  padding-right: 5px;
+}
+#cssmenu ul ul li a {
+  width: 130px;
+  border-bottom: 1px solid #eeeeee;
+  padding: 10px 20px;
+  font-size: 12px;
+  color: #BAA378;
+  background: #453823;
+  -webkit-transition: all .35s ease;
+  -moz-transition: all .35s ease;
+  -ms-transition: all .35s ease;
+  -o-transition: all .35s ease;
+  transition: all .35s ease;
+}
+#cssmenu.align-right ul ul li a {
+  text-align: right;
+}
+#cssmenu ul ul li:hover > a {
+  background: #ffffff;
+  color: #BAA378;
+}
+#cssmenu ul ul li:last-child > a,
+#cssmenu ul ul li.last > a {
+  border-bottom: 0;
+}
+#cssmenu > ul > li > ul::after {
+  content: '';
+  border: 6px solid transparent;
+  width: 0;
+  height: 0;
+  border-bottom-color: #ffffff;
+  position: absolute;
+  top: -12px;
+  left: 30px;
+}
+#cssmenu.align-right > ul > li > ul::after {
+  left: auto;
+  right: 30px;
+}
+#cssmenu ul ul li.has-sub::after {
+  border: 4px solid transparent;
+  border-left-color: #BAA378;
+  right: 10px;
+  top: 12px;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  -webkit-transition: -webkit-transform 0.2s ease, right 0.2s ease;
+}
+#cssmenu.align-right ul ul li.has-sub::after {
+  border-left-color: transparent;
+  border-right-color: #BAA378;
+  right: auto;
+  left: 10px;
+}
+#cssmenu ul ul li.has-sub:hover::after {
+  border-left-color: #ffffff;
+  right: -5px;
+  -webkit-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+#cssmenu.align-right ul ul li.has-sub:hover::after {
+  border-right-color: #ffffff;
+  border-left-color: transparent;
+  left: -5px;
+  -webkit-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+@media all and (max-width: 850px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+  #cssmenu {
+    width: auto;
+  }
+  #cssmenu.align-center ul {
+    text-align: left;
+  }
+  #cssmenu.align-right > ul > li {
+    float: none;
+  }
+  #cssmenu ul {
+    width: auto;
+  }
+  #cssmenu .submenuArrow,
+  #cssmenu #indicatorContainer {
+    display: none;
+  }
+  #cssmenu > ul {
+    height: auto;
+    display: block;
+  }
+  #cssmenu > ul > li {
+    float: none;
+  }
+  #cssmenu li,
+  #cssmenu > ul > li {
+    display: none;
+  }
+  #cssmenu ul ul,
+  #cssmenu ul ul ul,
+  #cssmenu ul > li:hover > ul,
+  #cssmenu ul ul > li:hover > ul,
+  #cssmenu.align-right ul ul,
+  #cssmenu.align-right ul ul ul,
+  #cssmenu.align-right ul > li:hover > ul,
+  #cssmenu.align-right ul ul > li:hover > ul {
+    position: relative;
+    left: auto;
+    top: auto;
+    opacity: 1;
+    padding-left: 0;
+    padding-right: 0;
+    right: auto;
+  }
+  #cssmenu ul .has-sub::after {
+    display: none;
+  }
+  #cssmenu ul li a {
+    padding: 12px 20px;
+  }
+  #cssmenu ul ul li a {
+    border: 0;
+    background: none;
+    width: auto;
+    padding: 8px 35px;
+  }
+  #cssmenu.align-right ul ul li a {
+    text-align: left;
+  }
+  #cssmenu ul ul li:hover > a {
+    background: none;
+    color: #FFFFFF;
+  }
+  #cssmenu ul ul ul a {
+    padding: 8px 50px;
+  }
+  #cssmenu ul ul ul ul a {
+    padding: 8px 65px;
+  }
+  #cssmenu ul ul ul ul ul a {
+    padding: 8px 80px;
+  }
+  #cssmenu ul ul ul ul ul ul a {
+    padding: 8px 95px;
+  }
+  #cssmenu > ul > #menu-button {
+    display: block;
+    cursor: pointer;
+  }
+  #cssmenu #menu-button > a {
+    padding: 14px 20px;
+  }
+  #cssmenu ul.open li,
+  #cssmenu > ul.open > li {
+    display: block;
+  }
+  #cssmenu > ul.open > li#menu-button > a {
+    color: #fff;
+    border-bottom: 1px solid rgba(150, 150, 150, 0.1);
+  }
+  #cssmenu ul ul::after {
+    display: none;
+  }
+  #cssmenu #menu-button::after {
+    display: block;
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 22px;
+    border-top: 2px solid #BAA378;
+    border-bottom: 2px solid #BAA378;
+    right: 20px;
+    top: 15px;
+  }
+  #cssmenu #menu-button::before {
+    display: block;
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 22px;
+    border-top: 2px solid #BAA378;
+    right: 20px;
+    top: 25px;
+  }
+  #cssmenu ul.open #menu-button::after,
+  #cssmenu ul.open #menu-button::before {
+    border-color: #fff;
+  }
+}
+.add-input.smallTextBox
+{
+	width: 70px; 
+	float: left;
+}
+.seperater
+{
+	float: left; 
+	padding: 0px 10px 0px 0px;

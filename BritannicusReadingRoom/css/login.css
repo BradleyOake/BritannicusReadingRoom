@@ -1,0 +1,133 @@
+body
+{
+/*     background: linear-gradient(#453823, #BAA378); */
+    background: url("../images/background.jpg");
+    height: 100%;
+}
+h4
+{
+    text-shadow: 0 0 5px #000000;
+    text-align: center;
+/*     margin-bottom: 2px;
+    margin-top: -5px; */
+    margin: auto;
+    color: white;
+}
+hr
+{
+    box-shadow: inset 0 0 2px #000000;
+    border-radius: 9px;
+    height: 3px;
+    color: #888888;
+}
+.login-div
+{
+    
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -175 0 0 -150; 
+    border-radius: 9px;
+    border-style: inset;
+    border-color: #453823;
+    border-width: 2px;
+    box-shadow: inset 0 0 5px #000000;
+    background: linear-gradient(#BAA378, #453823);
+}
+.login-div-modified
+{
+    
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -175 0 0 -150; 
+    border-radius: 9px;
+    border-style: inset;
+    border-color: #453823;
+    border-width: 2px;
+    box-shadow: inset 0 0 5px #000000;
+    background: linear-gradient(#BAA378, #453823);
+    
+}
+.login-div-modified h4
+{
+    text-shadow: 0 0 5px #000000;
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+.login-div a
+{
+    text-shadow: 0 0 5px #000000;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-left: 120px;
+}
+.login-div-modified a
+{
+    text-shadow: 0 0 5px #000000;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+a:hover
+{
+    color: #F0F0F0;
+}
+.login-logo
+{
+    margin-left: 20%;
+    margin-right: 20%; 
+    margin-top: 2%;
+}
+.labels
+{
+    margin-left: 6%;
+}
+.login-input
+{
+    width: 300px;
+    height: 25px;
+    border: 1px solid black;
+    box-shadow: 0 0 3px #E0E0E0;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+.login-input:hover
+{
+    box-shadow: 0 0 3px #000000;
+}
+.login-input:focus
+{
+    box-shadow: 0 0 7px #000000;
+}
+.login-button
+{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 125px;
+    border: 1px solid #E0E0E0;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #E0E0E0;
+}
+input:hover[type="submit"]
+{
+    box-shadow: 0 0 7px #000000;
+}
+input:focus[type="submit"]
+{
+    box-shadow: inset 0 0 4px #000000;
+}
+.login-radio
+{
+}

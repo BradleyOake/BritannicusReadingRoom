@@ -1,0 +1,154 @@
+
+<form class='add-form' id='mapForm' action='<?php echo $_SERVER['PHP_SELF']; ?>' method="post" onsubmit="return validateAddMap()">
+    <table class='add-form'>
+        <tr>
+            <td> 
+                <label><span>Title</span></label>
+            </td>
+            <td>
+                <input type='text' class='add-input' name='mapTitle' id='mapTitle' />
+            </td>
+            <td id='mapTitleError' style="text-align:left;"></td>
+        </tr>
+        <tr>
+            <td>
+              <label><span>Map Maker</span></label>
+            </td>
+            <td>
+                <input type='text' class='add-input' name='mapAuthor' id='mapAuthor' /><br />
+            </td>
+            <td id='mapAuthorError' style="text-align:left;"></td>
+        </tr>
+        <tr>
+            <td>
+                <label><span>Publish Date</span></label>
+            </td>
+            <td style="text-align:left;">
+                <input type='text' class='add-input-year' name='mapPublishDateYear' 
+                    id='mapPublishDateYear' placeholder='YYYY' /><span> / </span><input type='text' 
+                    class='add-input-month-day' name='mapPublishDateMonth' id='mapPublishDateMonth' 
+                    placeholder='MM' /><span> / </span><input type='text' 
+                    class='add-input-month-day' name='mapPublishDateDay' id='mapPublishDateDay' 
+                    placeholder='DD' />
+            </td>
+            <td id='mapPublishDateError' style="text-align:left;"></td>
+        </tr>
+        <tr>
+            <td>
+                <label><span>Location</span></label>
+            </td>
+            <td>
+                <input type='text' class='add-input' name='mapLocation' id='mapLocation' />
+            </td>
+            <td id='mapLocationError' style="text-align:left;"></td>
+        </tr>
+        <tr>
+            <td>
+                <label><span>Dimensions</span></label>
+            </td>
+            <td>
+                <input type='text' class='add-input' name='mapDimensions' id='mapDimensions' />
+            </td>
+            <td id='mapDimensionsError' style="text-align:left;"></td>
+        </tr>
+        <tr>
+            <td>
+                <label><span>Colouring</span></label>
+            </td>
+            <td>
+                <select name='mapColoring' id='mapColoring'>
+                    <option value=''>Select a Colouring</option>
+                    <option value='Uncoloured'>Uncoloured</option>
+                    <option value='Coloured'>Coloured</option>
+                    <option value='Hand Coloured'>Hand Coloured</option>
+                    <option value='Blue Print'>Blue Print</option>
+                </select>
+            </td>
+            <td id='mapColoringError' style="text-align:left;"></td>
+        </tr>
+        <tr>
+            <td>
+                <label><span>Market Price</span></label>
+            </td>
+            <td>
+                <input type='text' class='add-input' name='mapPrice' id='mapPrice' />
+            </td>
+            <td id='mapPriceError' style="text-align:left;"></td>
+        </tr>
+        <tr>
+            <td>
+                <label><span>Price Updated</span></label>
+            </td>
+            <td style="text-align:left;">
+                <input type='text' class='add-input-year' name='mapPricingDateYear' 
+                    id='mapPricingDateYear' placeholder='YYYY' /><span> / </span><input type='text' 
+                    class='add-input-month-day' name='mapPricingDateMonth' id='mapPricingDateMonth' 
+                    placeholder='MM' /><span> / </span><input type='text' 
+                    class='add-input-month-day' name='mapPricingDateDay' id='mapPricingDateDay' 
+                    placeholder='DD' />
+            </td>
+            <td id='mapPricingDateError' style="text-align:left;"></td>
+        </tr>
+        <tr>
+            <td>
+                <label><span>Condition</span></label>
+            </td>
+            <td>
+                <?php conditionList(); ?>
+            </td>
+            <td id='mapConditionGradeError' style="text-align:left;"></td>
+        </tr>
+        <tr>
+            <td>
+                <label><span>Acquisition Price</span></label>
+            </td>
+            <td>
+                <input type='text' class='add-input' name='mapAcquisitionPrice' id='mapAcquisitionPrice' />
+            </td>
+            <td id='mapAcquisitionPriceError' style="text-align:left;"></td>
+        </tr>
+        <tr>
+            <td>
+                <label><span>In Stock</span></label>
+            </td>
+            <td style="text-align:left;">
+                <input type="radio" name="mapInStock" id="mapInStock_Yes" value="true" checked>
+                <label for="mapInStock_Yes"><span>Yes</span></label>
+                &nbsp;<input type="radio" name="mapInStock" id="mapInStock_No" value="false">
+                <label for="mapInStock_No"><span>No</span></label>
+            </td>
+            <td id='mapInStockError' style="text-align:left;"></td>
+        </tr>
+        <tr>
+            <td>
+                <label><span>Map Description</span></label>
+            </td>
+            <td>
+                <textarea class='add-textarea' name='mapDescription' id='mapDescription' 
+                    rows="5" ></textarea>
+            </td>
+            <td id='mapDescriptionError' style="text-align:left;"></td>
+        </tr>
+        <tr>
+            <td>
+                <label><span>Condition Description</span></label>
+            </td>
+            <td>
+                <textarea class='add-textarea' name='mapCconditionDescription' id='mapConditionDescription' 
+                    rows="5" ></textarea>
+            </td>
+            <td id='mapConditionDescriptionError' style="text-align:left;"></td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;
+            </td>
+            <td class='add-button-cell'>
+                <input type='submit' class='add-button' value='Submit' name='mapSubmit' />
+            </td>
+            <td>
+                &nbsp;
+            </td>
+        </tr>
+    </table>
+</form>

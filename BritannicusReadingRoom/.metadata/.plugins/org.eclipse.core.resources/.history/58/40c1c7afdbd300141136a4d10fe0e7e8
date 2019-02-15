@@ -1,0 +1,111 @@
+<form class='add-form' id='searchMaps' action='' method="post">
+        <table class='add-form'>
+            <tr>
+                <td>
+                    <label><span>Map ID</span></label>
+                </td>
+                <td>
+                    <input type='text' class='add-input' name='isbn' />
+                </td>
+                <td id='mapIdError' style="text-align:left;" ></td>
+            </tr>
+            <tr>
+                <td> 
+                    <label><span>Title</span></label>
+                </td>
+                <td>
+                    <input type='text' class='add-input' name='title' />
+                </td>
+                <td id='titleError' style="text-align:left;"></td>
+            </tr>
+            <tr>
+                <td>
+                  <label><span>Author</span></label>
+                </td>
+                <td>
+                    <input type='text' class='add-input' name='author' /><br />
+                </td>
+                <td id='authorError' style="text-align:left;"></td>
+            </tr>
+            <tr rowspan="4">
+                <td>
+                    <label><span>Publish Date</span></label>
+                </td>
+                <td>
+                    <input type='text' class='add-input smallTextBox' name='year'/>
+					<span class= 'seperater'> Year   </span>
+					<br/>
+					<br/>
+					<input type='text' class='add-input smallTextBox' name='month'/>
+					<span class= 'seperater'> Month   </span>
+					<br/>
+					<br/>
+					<input type='text' class='add-input smallTextBox' name='day' />
+					<span class= 'seperater'> Day </span>
+                </td>
+                <td id='publishDateError' style="text-align:left;"></td>
+            </tr>
+            <tr>
+                  <td>
+                    <label><span>Condition Grade</span></label>
+                </td>
+                <td>
+                    <?php conditionList()?>
+                </td>
+                <td id='conditonError' style="text-align:left;"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label><span>Location</span></label>
+                </td>
+                <td>
+                    <input type='text' class='add-input' name='location' />
+                </td>
+                <td id='locationError' style="text-align:left;"></td>
+            </tr>
+			<tr>
+                <td>
+                    <label><span>Dimensions</span></label>
+                </td>
+                <td>
+                    <input type='text' class='add-input smallTextBox' name='height' />
+					<span class= 'seperater'> By   </span>
+					<input type='text' class='add-input smallTextBox'  name='length'/>
+					
+                </td>
+                <td id='dimensionsError' style="text-align:left;"></td>
+            </tr>
+			            <tr>
+                <td>
+                    <label><span>Coloring</span></label>
+                </td>
+                <td>
+                    <input type='text' class='add-input' name='coloring' />
+                </td>
+                <td id='coloringError' style="text-align:left;"></td>
+            </tr>
+            <tr>
+                 <td>
+                    <label><span>Price Range</span></label>
+                </td>
+                <td>
+                    <input type='text' class='add-input smallTextBox' name='minprice'/>
+					<input type='text' class='add-input smallTextBox' name='maxprice'/>
+                </td>
+                <td id='priceError' style="text-align:left;"></td>
+            </tr>
+            <tr>
+                <td>
+                    <span>
+                        *Required Fields
+                    </span>
+                </td>
+                <td class='add-button-cell'>
+                    <input type='submit' class='add-button' value='Submit' name='submit' />
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+            </tr>
+        </table>
+    </form>
